@@ -1,6 +1,6 @@
 {
-  "name": "sa",
-  "description": "SA",
+  "name": "NetworkCalculator",
+  "description": "UiNetworkCalculator",
   "version": "0.0.0",
   "type": "module",
   "private": false,
@@ -12,6 +12,7 @@
     "ts": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "netkit-ui": "^0.0.3",
     "vue": "3.5.22",
     "vue-router": "4.6.3"
   },
@@ -23,13 +24,14 @@
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",
     "eslint-plugin-import-x": "4.16.1",
-    "eslint-plugin-sonarjs": "3.0.5",
     "eslint-plugin-prettier": "5.5.4",
+    "eslint-plugin-sonarjs": "3.0.5",
     "eslint-plugin-unicorn": "62.0.0",
     "eslint-plugin-vue": "10.5.1",
     "globals": "16.4.0",
     "postcss-html": "1.8.0",
     "prettier": "3.6.2",
+    "sass": "^1.94.2",
     "sass-embedded": "1.93.2",
     "stylelint": "16.25.0",
     "stylelint-config-recess-order": "7.4.0",
